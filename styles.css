@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: slategray;
+    color: aliceblue;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* ^ Corpo ^ */
+
+h1, h2, h3 p {
+
+margin: 0 auto;
+
+}
+
+span {
+
+font-size: xx-large;
+display: block;
+font-weight: bold;
+color: coral;
+
+}
+
+.name {
+
+    font-size: xx-large;
+    display: block;
+    font-weight: bold;
+    color: coral;
+
+}
+
+.pe {
+display: flex;
+justify-content: center;
+text-align: center;
+background-color: blueviolet;
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+
