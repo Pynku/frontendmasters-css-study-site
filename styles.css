@@ -22,6 +22,14 @@ margin: 0 auto;
 
 }
 
+section {
+
+    display: block;
+    justify-content: center;
+    text-align: center;
+
+}
+
 span {
 
 font-size: xx-large;
@@ -49,3 +57,31 @@ padding-top: 3rem;
 padding-bottom: 3rem;
 }
 
+/* Nav Bar */
+
+nav {
+
+font-size: 80%;
+padding: 1rem;
+    
+}
+
+nav ul {
+
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+
+}
+
+nav a {
+
+text-decoration: none;
+color: antiquewhite;
+display: block;
+}
