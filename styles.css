@@ -95,3 +95,45 @@ padding: 0.6rem;
 
 }
 
+@media (min-width: 850px) {
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+nav li:first-child {
+
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+
+
+}
+
+  }
+
+.fa-regular {
+
+color: darkslateblue;
+font-size: 30px;
+background-color: cornflowerblue;
+border-radius: 5px;
+padding: 5px;
+padding-inline: 10px;
+
+
+  }
+
+  .fa-regular:hover {
+
+color: cornflowerblue;
+background-color: darkslateblue;
+transition: 0.2s;
+
+  }
+
+  .far-regular:active {
+
+color: aliceblue;
+background-color: darkblue;
+
+  }
