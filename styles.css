@@ -95,6 +95,19 @@ padding: 0.6rem;
 
 }
 
+.resumebtn:hover {
+
+background-color: orangered;
+transition: 0.1s;
+
+}
+
+.resumebtn:active {
+
+background-color: darkorange;
+
+}
+
 @media (min-width: 850px) {
     nav {
       max-width: 1200px;
